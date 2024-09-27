@@ -1,0 +1,24 @@
+.pagecrm__group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+@media screen and (min-width: 250px) {
+    .pagecrm__group {
+        gap: 0;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .pagecrm__group {
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__group {
+        gap: 20px;
+    }
+}

@@ -1,0 +1,25 @@
+.pagecrm__title {  /*h1*/
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0 0 20px;
+    z-index: 0;
+}
+
+@media screen and (min-width: 980px) {
+    .pagecrm__title {
+        font-size: 64px;
+        line-height: 89px;
+        margin: 80px 0 12px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__title {
+        font-size: 64px;
+        line-height: 89px;
+        margin: 95px 0 12px;
+    }
+}

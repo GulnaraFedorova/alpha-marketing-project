@@ -1,0 +1,11 @@
+.pagecrm__icon {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__icon {
+        width: 190px;
+        height: 190px;
+    }
+}

@@ -1,0 +1,307 @@
+.pagecrm__application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__application {
+        margin: 48px auto 0;
+    }   
+}
+
+.pagecrm__application-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 4px 0;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__application-title {
+        font-size: 45px;
+        line-height: 89px;
+    }    
+}
+
+.pagecrm__application-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: center;   
+    background: linear-gradient(266.77deg, #FFFFFF -11.99%, #D795FF 42.41%, #7BC2FE 91.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__application-text {
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.0em;
+        max-width: 900px;
+    }
+}
+
+.application-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+    border: 2px solid transparent;
+    background: linear-gradient(#9776de, #9776de) padding-box, linear-gradient(267deg, #FFFFFF -11.99%, #D795FF 42.41%, #7BC2FE 91.84%) border-box;
+    gap: 0;
+    padding: 30px 14px 40px;
+    margin-top: 28px;
+    box-shadow: 0px 0px 10px 0px rgb(150, 98, 255);
+}
+
+@media screen and (min-width: 1300px) {
+    .application-form {
+        align-items: start;
+        margin: 48px;
+        max-width: 398px;
+        width: 100%;
+        padding: 40px 426px 44px 88px;
+        gap: 18px;
+ }
+}
+
+.application-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1300px) {
+    .application-title {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+}
+
+.application-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1300px) {
+    .application-text {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto 6px;
+    }
+}
+
+.application-input {
+    padding: 8px 16px;
+    margin-bottom: 18px;
+    background: linear-gradient(#9776de, #9776de) padding-box, linear-gradient(266.77deg, rgb(215, 149, 255, 0.4), rgb(123, 194, 254, 0.2) ) border-box;    
+}
+
+@media screen and (min-width: 1300px) {
+    .application-input {
+        padding: 20px 16px;
+        margin-bottom: 16px;
+    }
+}
+
+.dropdown-application-container {
+    position: relative;
+}
+
+#dropdown-application-btn {
+    padding: 6px 16px;
+    border: 5px solid transparent;
+    background: linear-gradient(#9776de, #9776de) padding-box, linear-gradient(266.77deg, rgb(215, 149, 255, 0.4), rgb(123, 194, 254, 0.2) ) border-box;    
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    color: var(--white);
+}
+
+
+@media screen and (min-width: 1300px) {
+    #dropdown-application-btn {
+        font-size: 20px;
+        padding: 18px 5px;
+    }
+}
+
+.application__btn {
+    padding: 14px;
+    margin-top: 18px;
+}
+
+@media screen and (min-width: 1300px) {
+    .application__btn {
+        padding: 20px;
+        margin-top: 16px;
+    }
+}
+
+.application__btn:hover {
+    box-shadow: 0px 0px 20px 0px #8BFFFF;
+}
+
+
+.dropdown-application {
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1300px) {
+    .dropdown-application {
+        padding: 20px 16px;
+    }
+}
+
+#dropdown-application-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #b38bee;
+    border-radius: 10px;
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    padding: 18px 0;
+}
+
+#dropdown-application-menu li {
+    cursor: pointer;
+    padding: 0 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+    transition: text-shadow 0.3s ease;
+}
+
+#dropdown-application-menu li:hover {
+    text-shadow: 0 0 20px #D795FF,
+        0 0 4px #D795FF,
+        0 0 20px #D795FF,
+        0 0 4px #D795FF;
+}
+
+
+.pagecrm__application-image {
+    display: none;
+    z-index: 1; 
+}
+    
+@media screen and (min-width: 1300px) {
+    .pagecrm__application-image {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 450px;
+        max-height: 400px;
+        width: 100%;
+        position: absolute;
+        right: 100px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .pagecrm__application-image {
+        max-width: 500px;
+        max-height: 450px;
+        right: 150px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .pagecrm__application-image {
+        right: 210px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .pagecrm__application-image {
+        right: 20%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .pagecrm__application-image {
+        right: 25%;
+    }
+}
+
+@media screen and (min-width: 2700px) {
+    .pagecrm__application-image {
+        right: 30%;
+    }
+}
+
+.glowing-circle {
+    display: none;
+    z-index: 1; 
+}
+    
+@media screen and (min-width: 1300px) {
+    .glowing-circle {
+        display: block;
+        position: absolute;
+        right: 100px;
+        margin: 0;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgb(215, 149, 255, 1), rgb(215, 149, 255, 0.2));
+        box-shadow: 0 0 150px rgb(215, 149, 255, 0.1), 0 0 250px rgba(215, 149, 255, 1);
+        z-index: 0;
+    } 
+}
+
+@media screen and (min-width: 1400px) {
+    .glowing-circle {
+        right: 150px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .glowing-circle {
+        right: 210px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .glowing-circle {
+        right: 20%;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    .glowing-circle {
+        right: 25%;
+    }
+}
+
+@media screen and (min-width: 2700px) {
+    .glowing-circle {
+        right: 30%;
+    }
+}

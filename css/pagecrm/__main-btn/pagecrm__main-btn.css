@@ -1,0 +1,31 @@
+.pagecrm__main-btn {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--white);
+    padding: 8px 38px;
+    background: linear-gradient(#8c74cf, #8c74cf) padding-box, linear-gradient(240deg, #59f8d2, #74dfdd6e, #a1b4ef8a, #ca8eff8c) border-box;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    box-shadow: var(--glow);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+    .pagecrm__main-btn {
+        font-size: 16px;
+        padding: 12px 38px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__main-btn {
+        font-size: 24px;
+        line-height: 27.77px;
+        padding: 20px 40px;
+    }
+}
+
+.pagecrm__main-btn:hover {
+    box-shadow: 0px 0px 20px 0px #8BFFFF;
+}

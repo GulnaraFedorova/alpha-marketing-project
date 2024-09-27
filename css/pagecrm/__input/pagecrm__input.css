@@ -1,0 +1,117 @@
+.pagecrm__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 5px solid transparent;
+    background: linear-gradient(#633ea29a, #633ea29a) padding-box, linear-gradient(170deg, rgb(148, 0, 255, 0.4), rgba(198, 79, 135, 0.2)) border-box;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: var(--white);
+    white-space: normal;
+    box-sizing: border-box;
+    outline: none;
+    opacity: 90%;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__input {
+        font-size: 20px;
+        padding: 18px 0;
+    }
+}
+
+.pagecrm__input::placeholder {
+    color: var(--white);
+}
+
+.pagecrm__input-dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.pagecrm__input-arrow {
+    width: 15px;
+    height: 20px;
+}
+
+.pagecrm__input-textarea {
+    height: 110px;
+    padding: 10px 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__input-textarea {
+        font-size: 20px;
+        padding: 18px 0;
+        height: 194px;
+        margin-bottom: 6px;
+    }
+}
+
+.pagecrm__input-textarea::placeholder {
+    color: #FFFFFF80;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+#dropdown-btn {
+    padding: 10px 20px;
+    border: 5px solid transparent;
+    background: linear-gradient(#633ea29a, #633ea29a) padding-box, linear-gradient(170deg, rgb(148, 0, 255, 0.4), rgba(198, 79, 135, 0.2)) border-box;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    color: var(--white);
+}
+
+
+@media screen and (min-width: 1300px) {
+    #dropdown-btn {
+        font-size: 20px;
+        padding: 18px 5px;
+    }
+}
+
+#dropdown-menu {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #7f47b8;
+    border-radius: 10px;
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    padding: 18px 0;
+}
+
+#dropdown-menu li {
+    cursor: pointer;
+    padding: 0 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: white;
+    transition: text-shadow 0.3s ease;
+}
+
+#dropdown-menu li:hover {
+    text-shadow: 0 0 20px #D795FF,
+        0 0 4px #D795FF,
+        0 0 20px #D795FF,
+        0 0 4px #D795FF;
+}

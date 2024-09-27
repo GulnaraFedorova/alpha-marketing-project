@@ -1,0 +1,22 @@
+.pagecrm__main-img {
+    max-width: 336px;
+    max-height: 266px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+    .pagecrm__main-img {
+        max-width: 500px;
+        max-height: 426px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__main-img {
+        max-width: 800px;
+        max-height: 626px;
+    }
+}

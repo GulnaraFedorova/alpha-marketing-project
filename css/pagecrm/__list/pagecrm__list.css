@@ -1,0 +1,12 @@
+.pagecrm__list {
+    display: flex;
+    align-items: start;
+    gap: 9px;
+}
+
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__list {
+        align-items: center;
+    }
+}

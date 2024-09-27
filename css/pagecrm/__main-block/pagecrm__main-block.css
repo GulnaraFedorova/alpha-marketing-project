@@ -1,0 +1,14 @@
+.pagecrm__main-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0 37px;
+} 
+
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__main-block {
+        margin: 37px 0;
+    }
+}

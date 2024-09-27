@@ -1,0 +1,254 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-mobile {
+    display: block; 
+}
+
+@media screen and (min-width: 768px) {
+    .header-mobile {
+        display: none;
+    }
+}
+
+.header__logo {
+    display: flex;
+    align-self: center;
+    width: 102px;
+    height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__logo {
+        width: 150px;
+        height: 35px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .header__logo {
+        width: 222px;
+        height: 35px;
+    }
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px 13px 16px;
+}
+
+@media screen and (min-width: 1300px) {
+    .header__top {
+        max-width: 1560px;
+        padding: 13px 20px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .header__top {
+        margin: 0 auto;
+    }
+}
+
+.header__top-color {
+    background: #1D01414D;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+@media screen and (min-width: 1600px) {
+    .header__top-color {
+        max-width: 100%;
+    }
+}
+
+
+.header__tel {
+    font-family: Play;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13.31px;
+    text-align: left;
+    letter-spacing: 0.04em;
+}
+
+@media screen and (min-width: 768px) {
+    .header__tel {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .header__tel {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.14px;
+        text-align: left;
+        letter-spacing: 0.0em;
+    }
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 16px;
+    gap: 18px;
+}
+
+.header__burger {
+    background: url(../../images/btn_burger.webp);
+    background-size: cover;
+    max-width: 30px;
+    height: 20px;
+    width: 100%;
+}
+
+.header__search {
+    border: 1px solid #FFFFFF;
+    background: #907dc4;
+    border-radius: 15px;
+    width: 100%;
+}
+
+
+.header__search-form {
+    background: url(../../images/btn_search.webp);
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    margin: 4px 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__search-form {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 22px 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .header__nav {
+        padding: 13px 0;
+        margin: 80px 10px 0;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .header__nav {
+        padding: 13px 0;
+        margin: 88px 100px 0;
+    }
+}
+
+.header__nav-list {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.header__nav-link {
+    color: var(--light);
+    font-family: Play;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+}
+
+.header-desktop {
+    display: none; 
+}
+
+@media screen and (min-width: 768px) {
+    .header-desktop {
+        display: block; 
+    }
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+
+@media screen and (max-width: 980px) {
+    .header__menu {
+        margin: 0;
+    }
+}
+
+.header__menu-link {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding: 12px;
+    margin: 0 17px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1300px) {
+    .header__menu-link {
+        font-size: 14px;
+        padding: 0 5px;
+        margin: 0;
+    }
+}
+
+.header__question {
+    display: flex;
+    gap: 32px;
+}
+
+.header__tel-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__btn {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding: 15px 20px;
+    color: #E9DEFF;
+    background: linear-gradient(#1E0044, #1E0044) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1301px) {
+    .header__btn {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+}
+
+.header__btn:hover {
+    box-shadow: 0px 0px 3.15px 0px #A22DF71A,
+        0px 0px 6.52px 0px #A22DF71A, 
+        0px 0px 13px 0px #A22DF71A,
+        0px 0px 25.48px 0px #A22DF71A,
+        0px 0px 46.85px 0px #A22DF71A,
+        0px 0px 19px 9px #A22DF71A;
+}

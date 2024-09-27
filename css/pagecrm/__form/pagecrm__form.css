@@ -1,0 +1,103 @@
+.pagecrm__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 32px;
+    border: 2px solid transparent;
+    background: linear-gradient(#633ea2d2, #633ea2d2) padding-box, linear-gradient(148deg, rgb(148, 0, 255, 0.9), rgba(198, 79, 135, 0.83)) border-box;
+    gap: 0;
+    padding: 38px 14px 40px;
+    margin-top: 78px;
+    box-shadow: 0px 0px 10px 0px rgba(150, 98, 255, 1);
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__form {
+        max-width: 572px;
+        margin: 120px auto 120px;
+        padding: 38px 40px 40px;
+    }
+}
+
+.pagecrm__form-back {
+    display: block;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__form-back {
+        display: block;
+        background-image: url(../../../images/form-back.svg);
+        background-size: cover;
+        background-position: left top -330px;
+    }
+}
+
+.pagecrm__form-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(--white);
+    background: linear-gradient(#1E0044, #1E0044) padding-box, linear-gradient(to right, #383fec, #23ffff) border-box;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 20px 0;
+    font-family: Play;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.51px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__form-btn {
+        font-size: 20px;
+        line-height: 23.14px;
+        border-radius: 20px;
+    }
+}
+
+.pagecrm__form-btn:hover {
+    box-shadow: 0px 0px 20px 0px #8BFFFF;
+}
+
+.pagecrm__form-title { /*h3*/
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin: 0 auto;
+    color: #d795ff;
+}
+
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__form-title {
+        font-size: 42px;
+        line-height: 58px;
+        letter-spacing: 0.05em;        
+    }
+}
+
+.pagecrm__form-text {
+    /*font-family: Space Grotesk;*/
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 4px auto 20px;
+    max-width: 303px;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__form-text {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 18px auto 20px;
+        max-width: 492px;
+    }
+}

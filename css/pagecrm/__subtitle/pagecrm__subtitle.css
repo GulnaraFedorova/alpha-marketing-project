@@ -1,0 +1,38 @@
+.pagecrm__subtitle { /*h2*/
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0 0;
+}
+
+@media screen and (min-width: 652px) {
+    .pagecrm__subtitle {
+        display: none;
+    }
+}
+
+.pagecrm__subtitle-deck {
+    display: none; 
+}
+
+@media screen and (min-width: 652px) {
+    .pagecrm__subtitle-deck {
+        display: block;
+        font-size: 30px;
+        line-height: 89px;
+        margin: 44px 0;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__subtitle-deck {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 89px;
+        letter-spacing: -0.02em;
+        text-align: center;
+    }
+}

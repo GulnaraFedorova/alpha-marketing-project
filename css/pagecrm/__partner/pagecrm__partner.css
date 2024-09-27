@@ -1,0 +1,137 @@
+.pagecrm__partner {
+    padding: 0;
+    margin: 35px 10px;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__partner {
+        margin: 35px 10px;
+        padding: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .pagecrm__partner {
+        margin: 35px 10px;
+        padding: 0 90px;
+        max-width: 1400px;
+        width: 100%;
+    }
+}
+
+.pagecrm__partner-block {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (min-width: 760px) {
+    .pagecrm__partner-block {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 46px auto;
+        width: 100%;
+    }
+}
+
+.pagecrm__partner-title {
+    max-width: 340px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    margin: 4px auto 5px;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__partner-title {
+        max-width: 1600px;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 49.5px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.pagecrm__partner-img {
+    max-width: 340px;
+    max-height: 170px;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__partner-img {
+        max-width: 534px;
+        max-height: 272px;
+        height: 100%;
+        margin: auto 20px auto 48px;
+    }
+}
+
+.pagecrm__partner-list {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto 0;
+    padding: 0;
+    border-bottom: 1px solid #00FFB7;
+    width: 100%;
+}
+
+@media screen and (min-width: 760px) {
+    .pagecrm__partner-list {
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__partner-list {
+        margin: auto 0;
+    }
+}
+
+.pagecrm__partner-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-top: 1px solid #00FFB7;
+
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__partner-link {
+        padding: 40px 0;
+        align-items: center;
+    }
+}
+
+.pagecrm__partner-text {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white);
+    margin: 0;
+    padding: 0 auto;
+    align-self: center;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__partner-text {
+        font-size: 36px;
+        line-height: 54px;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+.pagecrm__partner-arrow {
+    width: 24px;
+    height: 30px;
+    padding-right: 10px;
+    margin-right: 0;
+}

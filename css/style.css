@@ -1,0 +1,78 @@
+@import url(header/header.css);
+@import url(footer/footer.css);
+
+@import url(pagecrm/pagecrm.css);
+@import url(pagecrm/__main-block/pagecrm__main-block.css);
+@import url(pagecrm/__title/pagecrm__title.css);
+@import url(pagecrm/__main-back/pagecrm__main-back.css);
+@import url(pagecrm/__main-img/pagecrm__main-img.css);
+@import url(pagecrm/__main-btn/pagecrm__main-btn.css);
+@import url(pagecrm/__block/pagecrm__block.css);
+@import url(pagecrm/__subtitle/pagecrm__subtitle.css);
+@import url(pagecrm/__process/pagecrm__process.css);
+@import url(pagecrm/__icon/pagecrm__icon.css);
+@import url(pagecrm/__text/pagecrm__text.css);
+@import url(pagecrm/__function/pagecrm__function.css);
+@import url(pagecrm/__list/pagecrm__list.css);
+@import url(pagecrm/__form/pagecrm__form.css);
+@import url(pagecrm/__group/pagecrm__group.css);
+@import url(pagecrm/__input/pagecrm__input.css);
+@import url(pagecrm/__usefulness/pagecrm__usefulness.css);
+@import url(pagecrm/__cases/pagecrm__cases.css);
+@import url(pagecrm/__price/pagecrm__price.css);
+@import url(pagecrm/__application/pagecrm__application.css);
+@import url(pagecrm/__partner/pagecrm__partner.css);
+@import url(pagecrm/__write/pagecrm__write.css);
+@import url(pagecrm/__popup/popup.css);
+
+
+body {
+    font-family: "Play", sans-serif;
+    color: var(--white);
+    --white: #FFFFFF;
+    --light: #E9DEFF;
+    --tr: 0, 2s;
+    --glow: 0px 0px 10px 0px hsl(277, 100%, 79%);
+    margin: 0 auto;
+    padding: 0 auto;
+    background: url(../images/Фон_Моб_CRM.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (min-width: 640px) {
+    body {
+        max-width: 1600px;
+        background: url(../images/Фон_Страница_CRM.webp);
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+}
+
+a {
+    text-decoration: none;
+    transition: var(--tr);
+    color: var(--white);
+    cursor: pointer;
+}
+
+a:hover {
+    text-shadow: 0 0 20px #D795FF,
+        0 0 4px #D795FF,
+        0 0 20px #D795FF,
+        0 0 4px #D795FF;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

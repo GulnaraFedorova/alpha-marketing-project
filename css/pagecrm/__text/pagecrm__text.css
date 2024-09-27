@@ -1,0 +1,17 @@
+.pagecrm__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 1300px) {
+    .pagecrm__text {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+}
