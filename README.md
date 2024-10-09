@@ -20,4 +20,4 @@ CSS
 JavaScript  
 
 ## Ссылка на проект
-Страницу можно посмотреть по следующей [по ссылке](https://gulnarafedorova.github.io/alpha-marketing-project/).
+Страницу можно посмотреть по следующей [ссылке](https://gulnarafedorova.github.io/alpha-marketing-project/).
